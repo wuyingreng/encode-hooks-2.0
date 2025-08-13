@@ -5,7 +5,13 @@ module.exports = {
   },
   mode: 'production',
   resolve: {
-    extensions: ['.json', '.js'],
+    extensions: ['.json', '.js', '.ts', '.tsx'],
+    fallback: {
+      "crypto": false,
+      "stream": false,
+      "util": false,
+      "buffer": false
+    }
   },
   // module: {
   //   rules: [
