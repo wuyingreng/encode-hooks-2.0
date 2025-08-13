@@ -49,6 +49,7 @@
     "dumi": "^1.1.48",
     "encode-fe-lint": "^1.0.3",
     "eslint": "^7.2.0",
+    "eslint-plugin-jsdoc": "^48.0.0",
     "eslint-plugin-react-hooks": "^4.0.8",
     "fast-glob": "^3.2.11",
     "fs-extra": "^10.0.1",
